@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run -v "$pwd:/work" "capybara1/avro-tools" "$@"
+docker run --rm -v "$pwd:/work" "capybara1/avro-tools" "$@"

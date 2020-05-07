@@ -1,2 +1,2 @@
 @echo off
-docker run -v "%cd%:/work" "capybara1/avro-tools" %*
+docker run --rm -v "%cd%:/work" "capybara1/avro-tools" %*
